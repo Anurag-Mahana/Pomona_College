@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    height:150px;
+    background: linear-gradient(#17028b, #0b0138);
+}
+.logo{
+    height:100%;
+    position: relative;
+    left:230px;
+}
+.navbar{
+    position: absolute;
+    top: 2px;
+    right: 230px;
+}
+.navbar ul li{
+    color:white;
+    font-size:20px;
+    padding: 0 8px;
+    display: inline-block;
+}
+
+.separator{
+    height:40px;
+    background:rgb(189, 3, 3);
+}
+
+.container{
+    height:800px;
+    background:rgb(231, 229, 229);
+    padding:10px;
+}
+.container-1{
+    height: 670px;
+    border:3px solid rgb(218, 1, 1);
+    margin: 0px 200px 10px 200px;
+    padding:20px
+}
+
+.first{
+    margin-bottom: 10px;
+}
+.first h1{
+    padding: 0 px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: #1a02a3;
+}
+.images{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.images img{
+    height: 173.6px;
+    width: 19.5%;
+    padding: 3px;
+}
+
+.second{
+    padding: 40px 2px 0 2px;
+    color: #1a02a3;
+    font-size: 18px;
+}
+
+details summary{
+    margin-top:30px;
+    font-size:20px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: #1a02a3;
+
+}
