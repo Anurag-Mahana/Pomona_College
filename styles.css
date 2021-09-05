@@ -75,3 +75,31 @@ details summary{
     color: #1a02a3;
 
 }
+
+.btn{
+    position:sticky;
+    bottom:20px;
+    left:45%;
+}
+
+button{
+    height:60px;
+    width:200px;
+    border-radius:30px;
+    border:12px solid rgb(0, 0, 0);
+    box-shadow: rgba(196, 3, 3, 0.438) 0px 24px 38px,rgba(175, 4, 4, 0.39) 0px 10px 10px;
+    background:rgb(177, 1, 1);
+    cursor:pointer;
+    font-size:20px;
+    color:white;
+}
+
+
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+    color:white;
+    box-shadow: rgba(0, 0, 0, 0.534) 0px 24px 38px,rgba(0, 0, 0, 0.486) 0px 10px 10px;
+    border: solid red;
+}
